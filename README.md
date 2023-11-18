@@ -1,5 +1,5 @@
 # Convert Image to Bitmap
-Transform any JPG or PNG image into a compatible bitmap format suitable for [paperd.ink](https://paperd.ink) Classic and Merlot.
+Transform any JPG or PNG image into a compatible bitmap format for [paperd.ink](https://paperd.ink) Classic and Merlot e-paper/e-ink displays using JavaScript and Node
 
 # How to Use
 - Download Node.js from [here](https://nodejs.org/en)
