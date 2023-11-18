@@ -13,7 +13,7 @@ npm i
 - In `app.js`, adjust the following settings as needed:
   - **targetWidth**: 400, // Width of paperd.ink's displays
   - **targetHeight**: 300, // Height of paperd.ink's displays
-  - **margin**: 0, // Add margin on sides
+  - **margin**: 5, // Add margin on sides
   - **ditheringMethod**: 'dither565', // Currently only one dithering method is available
   - **convertToMonochrome**: true // Monochrome for paperd.ink Classic which is a monochrome e-paper display
 
