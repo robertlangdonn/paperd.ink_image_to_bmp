@@ -2,6 +2,7 @@
 Transform any JPG or PNG image into a compatible bitmap format suitable for [paperd.ink](https://paperd.ink) Classic and Merlot.
 
 # How to Use
+- Download Node.js from [here](https://nodejs.org/en)
 - Install the dependencies
 ```
 
@@ -23,4 +24,4 @@ npm i
 node app.js
 
 ```
-- Output dithered bmp files are saved in the `output` folder
+- Output i.e. dithered bmp files are saved in the `output` folder
