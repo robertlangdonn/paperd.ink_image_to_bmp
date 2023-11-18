@@ -16,6 +16,6 @@
   "author": "Prasad K",
   "license": "ISC",
   "dependencies": {
-    "jimp": "^0.22.10",
+    "jimp": "^0.22.10"
   }
 }
