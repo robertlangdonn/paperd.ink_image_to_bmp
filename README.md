@@ -11,11 +11,11 @@ Transform any JPG or PNG image into a compatible bitmap format suitable for pape
 
 - Put your images in the `input` folder
 - In `app.js`, adjust the following settings as needed:
-  - targetWidth: 400, // Width of paperd.ink's displays
-  - targetHeight: 300, // Height of paperd.ink's displays
-  - margin: 0, // Add margin on sides
-  - ditheringMethod: 'dither565', // Currently only one method is available
-  - convertToMonochrome: false // Monochrome for paperd.ink Classic monochrome display
+  - **targetWidth**: 400, // Width of paperd.ink's displays
+  - **targetHeight**: 300, // Height of paperd.ink's displays
+  - **margin**: 0, // Add margin on sides
+  - **ditheringMethod**: 'dither565', // Currently only one dithering method is available
+  - **convertToMonochrome**: false // Monochrome for paperd.ink Classic monochrome display
 
 - Run the `app.js`
 ```
@@ -23,4 +23,4 @@ Transform any JPG or PNG image into a compatible bitmap format suitable for pape
 node app.js
 
 ```
-- Output files are saved in the `Output` folder
+- Output dithered bmp files are saved in the `output` folder
