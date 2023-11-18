@@ -1,7 +1,7 @@
 # Convert Image to Bitmap
-Transform any JPG or PNG image into a compatible bitmap format suitable for paperd.ink's Classic and Merlot displays.
+Transform any JPG or PNG image into a compatible bitmap format suitable for [paperd.ink](https://paperd.ink) Classic and Merlot.
 
-# How to use
+# How to Use
 - Install the dependencies
 ```
 
@@ -15,7 +15,7 @@ npm i
   - **targetHeight**: 300, // Height of paperd.ink's displays
   - **margin**: 0, // Add margin on sides
   - **ditheringMethod**: 'dither565', // Currently only one dithering method is available
-  - **convertToMonochrome**: false // Monochrome for paperd.ink Classic monochrome display
+  - **convertToMonochrome**: false // Monochrome for paperd.ink Classic which is a monochrome e-paper display
 
 - Run the `app.js`
 ```
