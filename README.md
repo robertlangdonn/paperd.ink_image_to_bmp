@@ -16,7 +16,7 @@ npm i
   - **targetHeight**: 300, // Height of paperd.ink's displays
   - **margin**: 5, // Add margin on sides
   - **ditheringMethod**: 'dither565', // Currently only one dithering method is available
-  - **convertToMonochrome**: true // Monochrome for paperd.ink Classic which is a monochrome e-paper display
+  - **convertToMonochrome**: true // Monochrome for paperd.ink Classic which has a monochrome e-paper display
 
 - Run the `app.js`
 ```
