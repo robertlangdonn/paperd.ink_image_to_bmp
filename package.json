@@ -2,7 +2,7 @@
   "name": "image-conversion",
   "version": "1.0.0",
   "description": "Convert any image to a resized and dithered monochrome image which can be shown on paperd.ink devices",
-  "main": "convert.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
