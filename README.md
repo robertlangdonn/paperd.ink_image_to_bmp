@@ -5,7 +5,7 @@ Transform any JPG or PNG image into a compatible bitmap format suitable for pape
 - Install the dependencies
 ```
 
-`npm i`
+npm i
 
 ```
 
