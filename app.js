@@ -37,7 +37,7 @@ const settings = {
     targetHeight: 300,
     margin: 5,
     ditheringMethod: 'dither565',
-    convertToMonochrome: false,
+    convertToMonochrome: true,
     outputDir: outputDir
 };
 
