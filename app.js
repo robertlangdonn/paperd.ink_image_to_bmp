@@ -7,7 +7,7 @@ const inputDir = path.join(__dirname, 'input');
 const outputDir = path.join(__dirname, 'output_bmp');
 
 function processImagesFromDirectory(inputDir, settings) {
-    if (!fs.existsSync(outputDir)){
+    if (!fs.existsSync(outputDir)) {
         fs.mkdirSync(outputDir);
     }
 
@@ -23,8 +23,7 @@ function processImagesFromDirectory(inputDir, settings) {
             if (extname === '.jpg' || extname === '.png') {
                 const outputPath = fileOps.generateOutputPath(filePath, settings);
 
-                processImage(filePath, settings)
-                    .then(data => fileOps.writeToFile(outputPath, data))
+                processImage(filePath, settings, outputPath)
                     .then(savedPath => console.log(`Image processed and saved as ${savedPath}`))
                     .catch(console.error);
             }
