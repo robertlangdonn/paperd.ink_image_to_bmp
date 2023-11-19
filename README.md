@@ -24,4 +24,4 @@ npm i
 node app.js
 
 ```
-- Output i.e. dithered bmp files are saved in the `output` folder
+- Output i.e. dithered bmp files are saved in the `output_bmp` folder
