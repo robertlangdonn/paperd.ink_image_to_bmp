@@ -9,16 +9,6 @@ function generateOutputPath(inputPath, settings) {
     return path.join(settings.outputDir, `dithered-${baseName}-${settings.margin}m-${monoOrColor}-${timestamp}.bmp`);
 }
 
-function writeToFile(outputPath, data) {
-    return new Promise((resolve, reject) => {
-        fs.writeFile(outputPath, data, 'base64', (err) => {
-            if (err) reject(err);
-            else resolve(outputPath);
-        });
-    });
-}
-
 module.exports = {
-    generateOutputPath,
-    writeToFile
+    generateOutputPath
 };
